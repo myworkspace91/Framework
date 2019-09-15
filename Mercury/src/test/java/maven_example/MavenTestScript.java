@@ -10,7 +10,7 @@ public class MavenTestScript {
 	public void registration() throws Exception {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.way2sms.com/");
+		driver.get("https://mvnrepository.com/");
 		Thread.sleep(2000);
 		driver.quit();
 	}
